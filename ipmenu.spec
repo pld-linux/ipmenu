@@ -1,8 +1,9 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Netfilter/IPtables Rule Editor
 Summary(pl):	Edytor regu³ek Netfiltera/IPtables
 Name:		ipmenu
 Version:	0.0.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
@@ -12,7 +13,6 @@ URL:		http://users.pandora.be/stes/ipmenu.html
 Requires:	cursel
 Requires:	iproute2
 Requires:	iptables
-Requires:	perl
 Conflicts:	kernel =< 2.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
