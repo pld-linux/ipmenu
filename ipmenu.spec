@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Admin
 Group(de):	Netzwerkwesen/Administration
-Group(pl):	Sieciowe/Administacyjne
+Group(pl):	Sieciowe/Administracyjne
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
 Patch0:		%{name}-path.patch
 URL:		http://users.pandora.be/stes/ipmenu.html
