@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
+# Source0-md5:	16e7747978074254c25240c1876a6bf9
 Patch0:		%{name}-path.patch
 URL:		http://users.pandora.be/stes/ipmenu.html
 Requires:	cursel
