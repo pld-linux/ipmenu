@@ -1,0 +1,16 @@
+diff -urN ipmenu-0.0.3.org/ipmenu ipmenu-0.0.3/ipmenu
+--- ipmenu-0.0.3.org/ipmenu	Thu Apr 19 18:12:35 2001
++++ ipmenu-0.0.3/ipmenu	Thu Apr 19 18:13:17 2001
+@@ -1,10 +1,10 @@
+ #!/bin/sh
+ # $Id$
+ 
+-IPLOG=${IPLOG-/tmp/ipmenu.log}
++IPLOG=${IPLOG-~/.ipmenu.log}
+ export IPLOG
+ 
+-IPMENU=${IPMENU-/usr/local/src/ipmenu}
++IPMENU=${IPMENU-/usr/share/ipmenu}
+ export IPMENU
+ 
+ EDITOR=${EDITOR-vi}
