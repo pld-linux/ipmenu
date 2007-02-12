@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Netfilter/IPtables Rule Editor
-Summary(pl):	Edytor regu³ek Netfiltera/IPtables
+Summary(pl.UTF-8):   Edytor reguÅ‚ek Netfiltera/IPtables
 Name:		ipmenu
 Version:	0.0.3
 Release:	2
@@ -25,11 +25,11 @@ queueing (CBQ). Netfilter is the Linux 2.4 subsystem for configuring a
 multi-homed Linux server as a packet filter or as a NAT (network
 address translation) device.
 
-%description -l pl
-Interfejs u¿ytkownika do tablic polityki routingu, kontroli ruchu
-pozwalaj±c na edycjê regu³ek firewalla (iptables) z mo¿liwo¶ci±
-,,znakowania'' pakietów oraz szeregowania ich na podstawie polityki
-routingu lub kolejkowania bazuj±cego na klasach (CBQ).
+%description -l pl.UTF-8
+Interfejs uÅ¼ytkownika do tablic polityki routingu, kontroli ruchu
+pozwalajÄ…c na edycjÄ™ reguÅ‚ek firewalla (iptables) z moÅ¼liwoÅ›ciÄ…
+,,znakowania'' pakietÃ³w oraz szeregowania ich na podstawie polityki
+routingu lub kolejkowania bazujÄ…cego na klasach (CBQ).
 
 %prep
 %setup -q
