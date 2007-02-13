@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Netfilter/IPtables Rule Editor
-Summary(pl.UTF-8):   Edytor regułek Netfiltera/IPtables
+Summary(pl.UTF-8):	Edytor regułek Netfiltera/IPtables
 Name:		ipmenu
 Version:	0.0.3
 Release:	2
