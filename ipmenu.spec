@@ -32,7 +32,7 @@ routingu lub kolejkowania bazującego na klasach (CBQ).
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
